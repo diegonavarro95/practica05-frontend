@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Definición de tema*/
+@theme {
+  /* Fuentes */
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  /* Paleta de colores */
+  --color-tech-dark: #0f172a;
+  --color-tech-card: #1e293b;
+  --color-tech-cyan: #06b6d4;
+  --color-tech-cyanHover: #0891b2;
+  --color-tech-violet: #8b5cf6;
+  --color-tech-border: #334155;
+}
+
+/* Ajustes globales */
+body {
+  background-color: var(--color-tech-dark);
+  color: white;
+}

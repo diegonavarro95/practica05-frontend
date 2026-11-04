@@ -1,35 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Hardware - Sistemas Distribuidos</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <!-- Meta tags para responsividad y PWA -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  <title>HWStore PWA</title>
+  
+  <!-- Fuentes Premium de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  
 </head>
-<body>
-    <header>
-        <h1>Catálogo de Hardware (API REST)</h1>
-    </header>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased min-h-screen selection:bg-cyan-500 selection:text-white">
+  
+  
+  <div id="app-root" class="w-full h-full min-h-screen pb-20 md:pb-0"></div>
 
-    <main class="contenedor">
-        <!-- Sección de Productos -->
-        <section class="productos-seccion">
-            <h2>Productos Disponibles</h2>
-            <div id="lista-productos" class="grid-productos">
-                
-                <p>Cargando inventario...</p>
-            </div>
-        </section>
-
-        <!-- Sección de Notificaciones/Tickets -->
-        <section class="ticket-seccion">
-            <h2>Última Transacción</h2>
-            <div id="ticket-compra" class="ticket-consola">
-                Esperando operaciones...
-            </div>
-        </section>
-    </main>
-
-    <script src="app.js"></script>
+  
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>
