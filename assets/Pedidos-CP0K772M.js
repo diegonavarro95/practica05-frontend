@@ -1,4 +1,4 @@
-import{t as e}from"./index-DFbJTzfB.js";var t=async(t,n,r)=>{t.innerHTML=`
+import{t as e}from"./index-D2WQL74G.js";var t=async(t,n,r)=>{t.innerHTML=`
     <div class="min-h-screen flex flex-col bg-tech-dark">
       <!-- Navbar Simplificado -->
       <header class="bg-tech-card/80 backdrop-blur-md border-b border-tech-border sticky top-0 z-40">
