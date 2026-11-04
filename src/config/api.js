@@ -1,5 +1,5 @@
 export const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://practica07-backend.onrender.com' 
+  ? 'https://practica07-backend.onrender.com/api/v1' 
   : 'http://localhost:3000/api/v1';
 
 export const fetchApi = async (endpoint, options = {}) => {
