@@ -1,5 +1,5 @@
 export const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://p08-api-gateway.onrender.com/api/v1' 
+  ? 'https://api-gateway.redmushroom-ed2902bb.westus2.azurecontainerapps.io/api/v1' 
   : 'http://localhost:3000/api/v1';
 
 export const fetchApi = async (endpoint, options = {}) => {
